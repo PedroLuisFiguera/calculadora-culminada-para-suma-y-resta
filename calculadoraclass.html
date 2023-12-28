@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculadorclass.js"></script>
+    
+    <link rel="stylesheet" href="calculadora.css">
+
+    <title>calculadora</title>
+
+</head>
+<body>
+    
+     <div class="calculadora">
+    <h6>calculadora</h6>
+       
+        <input type="text" id="cedula" readonly>
+
+
+        <div class="fila-botones">
+            <input type="button" value="1" onclick="Agregar('1')">
+            <input type="button" value="2" onclick="Agregar('2')">           
+            <input type="button" value="3" onclick="Agregar('3')">
+            <input type="button" value="+" onclick="Agregar('+')">     
+        </div>
+
+        <div class="fila-botones">
+            <input type="button" value="4" onclick="Agregar('4')">
+            <input type="button" value="5" onclick="Agregar('5')">
+            <input type="button" value="6" onclick="Agregar('6')">
+            <input type="button" value="-" onclick="Agregar('-')">
+         </div>
+
+        <div class="fila-botones">
+            <input type="button" value="7" onclick="Agregar('7')">
+            <input type="button" value="8" onclick="Agregar('8')">
+            <input type="button" value="9" onclick="Agregar('9')">
+            <input type="button" value="*" onclick="Agregar('*')">   
+        </div>
+
+        <div class="fila-botones">
+            <input type="button" value="0" onclick="Agregar('0')">
+            <input type="button" value="." onclick="Agregar('.')">
+            <input type="button" value="c" onclick="Limpiar('')">
+            <input type="button" value="/" onclick="Agregar('/')">
+        </div>
+
+        <div class="fila-botones">
+            <input type="button" value="=" onclick="Calcular()">
+        
+            <input type="button" value="Mostrar Array" onclick="MostrarArray()">
+        </div>
+
+
+
+     </div>
+     
+</body>
+</html>
